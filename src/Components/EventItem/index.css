@@ -1,0 +1,17 @@
+.event-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    border: solid 1px;
+    margin-left: 10px;
+}
+
+.event-item__image {
+    width: 250px;
+    height: 200px;
+}
+
+ .event-item__description, .event-item__date{
+    padding-left: 50px;
+}

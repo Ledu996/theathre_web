@@ -1,0 +1,19 @@
+.nav-bar {
+    margin-top: 12px;
+    flex: 1;
+    border-bottom: 1px solid;
+}
+
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+}

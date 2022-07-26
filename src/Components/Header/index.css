@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    flex-direction: column;
+} 
+
+.login__registrer-box {
+    display: flex;
+    justify-content: end;
+}
+
+
+.login__btn, .register__btn {
+    margin-left: 3px;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    border-radius: 3px;
+    
+}
+
+.login__btn, .register__btn :hover {
+    cursor: pointer;
+}
+
+.login__btn {
+    background-color: #524f4f;
+}
+
+.register__btn {
+    background-color: #43e93a;
+}
+
+.login__btn, a{
+    text-decoration: none;
+}
